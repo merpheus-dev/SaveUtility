@@ -25,7 +25,6 @@ You can either clone the project and put it inside the "Packages" folder of your
 ```json
 {
   "dependencies": {
-  ... your other dependencies....
        "com.m3rt32.saveutility": "https://github.com/m3rt32/SaveUtility.git"
   }
 }
