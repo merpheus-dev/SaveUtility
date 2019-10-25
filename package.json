@@ -1,0 +1,15 @@
+{
+    "name": "com.m3rt32.saveutility",
+    "displayName": "Save Utility",
+    "version": "1.5.1",
+    "unity": "2018.1",
+    "description": "Modular save utility that can save data using different methods but once.",
+    "keywords": [
+        "unity",
+		"editor",
+		"csharp",
+		"save",
+		"data"
+    ],
+    "category": "Productivity"
+}

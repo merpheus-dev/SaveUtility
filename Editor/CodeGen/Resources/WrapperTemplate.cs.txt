@@ -1,0 +1,6 @@
+using UnityEngine;
+namespace Subtegral.SaveUtility
+{
+    [CreateAssetMenu(menuName = "SaveUtility/#SCRIPT_NAME# Wrapper")]
+	public class #SCRIPT_NAME# : #SERVICE_NAME#<#DATA_CLASS_NAME#>{}
+}
