@@ -20,5 +20,14 @@ public class MyAwesomeSaveManager
 }
 ```
 
+# Installation
+You can either clone the project and put it inside the "Packages" folder of your project or add it to your *package.json* file as follows:
+```json
+{
+  "dependencies": {
+       "com.m3rt32.saveutility": "https://github.com/m3rt32/SaveUtility.git"
+  }
+}
+```
 # TO-DO:
 - Default components
