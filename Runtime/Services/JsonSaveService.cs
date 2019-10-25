@@ -17,9 +17,8 @@ namespace Subtegral.SaveUtility
         public override T LoadData()
         {
             if (!File.Exists(_filePath)) return new T();
-            var file = File.Open(_filePath, FileMode.Open);
+            var file = File.ReadAllText(_filePath);
             var deserializedData = JsonUtility.FromJson<T>(file);
-            file.Close();
             return deserializedData;
         }
 
