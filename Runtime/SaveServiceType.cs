@@ -3,6 +3,7 @@
     public enum SaveServiceType
     {
         PlayerPrefsSaveService,
-        BinaryFormatterSaveService
+        BinaryFormatterSaveService,
+        JsonSaveService
     }
 }
