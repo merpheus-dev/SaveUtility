@@ -2,17 +2,14 @@
 Modular Save System for Unity
 
 # Example
-- Create a wrapper around save service
-```C#
-[CreateAssetMenu]
-public class BinaryFormatterServiceWrapper : BinaryFormatterSaveService<UserData>{}
-```
-- Create a scriptable object file from the wrapper
+- Go to Top Menu Subtegral>SaveUtility>Generate to manually generate wrapper scripts.
+- Use Subtegral>SaveUtility>Auto Generate to enable auto wrapper code generation.
+- Create a scriptable object from generated wrappers from Create Menu>Save Utility>Your Data Class' Wrapper
 - Use it in your class:
 ```C#
 public class MyAwesomeSaveManager
 {
-      [SerializeField] private BinaryFormatterServiceWrapper serviceWrapper;
+      [SerializeField] private MyPotatoCountWrapper serviceWrapper;
       
       //Load data, returns a new instance with default values of your serialized class
       _data = serviceWrapper.LoadData();
@@ -23,7 +20,5 @@ public class MyAwesomeSaveManager
 }
 ```
 
-
 # TO-DO:
-- Code generators for serialized types
 - Default components
