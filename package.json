@@ -1,7 +1,7 @@
 {
     "name": "com.m3rt32.saveutility",
     "displayName": "Save Utility",
-    "version": "1.5.3",
+    "version": "1.5.4",
     "unity": "2018.1",
     "description": "Modular save utility that can save data using different methods but once.",
     "keywords": [

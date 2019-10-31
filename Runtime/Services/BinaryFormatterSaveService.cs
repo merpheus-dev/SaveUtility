@@ -11,7 +11,7 @@ namespace Subtegral.SaveUtility
 
         private void OnEnable()
         {
-            _filePath = Path.Combine(Application.persistentDataPath, "userdata.pak");
+            _filePath = Path.Combine(Application.persistentDataPath, $"{nameof(T)}.pak");
         }
 
         public override T LoadData()
