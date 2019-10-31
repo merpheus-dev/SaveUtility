@@ -11,7 +11,7 @@ namespace Subtegral.SaveUtility
 
         private void OnEnable()
         {
-            _filePath = Path.Combine(Application.persistentDataPath, $"{nameof(T)}.json");
+            _filePath = Path.Combine(Application.persistentDataPath, $"{typeof(T)}.json");
         }
 
         public override T LoadData()
