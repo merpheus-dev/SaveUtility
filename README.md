@@ -31,3 +31,4 @@ You can either clone the project and put it inside the "Packages" folder of your
 ```
 # TO-DO:
 - Default components
+- Add encryption feature(can be turned on/off)
